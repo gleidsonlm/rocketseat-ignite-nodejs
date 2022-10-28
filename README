@@ -1,0 +1,22 @@
+# About #
+Exercises for the @RocketSeatEducation learning path Ignite Node.js.
+
+- FinAPI is an API for account management with withdrawn, deposit, statement and balace functions.
+
+## Dependencies ##
+
+- Express: HTTP service by default. More information: https://www.npmjs.com/package/express .
+
+- UUID: For the creation of RFC4122 UUIDs. More information: https://github.com/uuidjs/uuid#readme .
+
+## Development ##
+
+- Nodemon: Restarting automatically the Node application on code changes. More information: https://npmjs.com/package/nodemon .
+
+## Utils ##
+
+- Insomnia is a lightweight REST webservices client for testing: https://insomnia.rest .
+
+## License ##
+
+- AGPL-3.0. More information in the LICENSE file or http://www.gnu.org/licenses .
