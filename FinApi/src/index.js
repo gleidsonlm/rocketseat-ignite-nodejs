@@ -34,11 +34,11 @@ function getBalance(statement) {
         // if a deposit
         if(opp.type === 'credit') {
             // credit the balance
-            return acc + statement.amount;
+            return acc + opp.amount;
         // if a withdraw
         } else {
             // debit the balance
-            return acc - statement.amount;
+            return acc - opp.amount;
         }
     },0);
 
