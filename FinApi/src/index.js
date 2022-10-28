@@ -34,11 +34,11 @@ function getBalance(statement) {
         // if a deposit
         if(opp.type === 'credit') {
             // credit the balance
-            return acc.balance + statement.amount;
+            return acc + statement.amount;
         // if a withdraw
         } else {
             // debit the balance
-            return acc.balance - statement.amount;
+            return acc - statement.amount;
         }
     },0);
 
@@ -68,10 +68,17 @@ const customers = [
         },
         {
             "description": "bank teller",
-            "amount": 520,
+            "amount": 900,
+            "type": "debit",
+            "created": "2022-10-28T12:41:09.821Z"
+        },
+        {
+            "description": "bank teller",
+            "amount": 200,
             "type": "debit",
             "created": "2022-10-28T12:41:09.821Z"
         }
+
     ]
   }
 ];
